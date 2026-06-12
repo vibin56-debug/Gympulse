@@ -6,6 +6,7 @@ __pycache__/
 
 # Firebase service account
 backend/serviceAccountKey.json
+backend/*firebase-adminsdk*.json
 
 # Local server artifacts
 *.log
