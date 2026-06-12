@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GymPulse Scan Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>GymPulse Scan Landing Page</h1>
+      <p>Scan a member QR code to record gym attendance.</p>
+      <div class="page-links">
+        <a href="index.html">Back to Dashboard</a>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Camera QR Scanner</h2>
+      <p>Use your device camera to scan a member QR code.</p>
+      <div id="qr-reader" style="width:100%;"></div>
+      <button id="startCameraButton">Start Camera Scan</button>
+      <p id="cameraStatus" class="notice"></p>
+    </section>
+
+    <section class="card">
+      <h2>Manual Scan</h2>
+      <div class="form-row">
+        <label for="manualMemberId">Member ID</label>
+        <input id="manualMemberId" type="text" placeholder="Enter memberId" />
+      </div>
+      <button id="manualScanButton">Record Attendance</button>
+      <p id="manualStatus" class="notice"></p>
+    </section>
+  </main>
+
+  <script type="module" src="scan.js"></script>
+</body>
+</html>

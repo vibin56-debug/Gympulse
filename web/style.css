@@ -1,0 +1,142 @@
+:root {
+  color-scheme: dark;
+  color: #e8eaed;
+  background: #0f1720;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.1rem, 2.5vw, 3rem);
+}
+
+p {
+  margin: 12px 0;
+  line-height: 1.6;
+}
+
+.card {
+  background: #172335;
+  border: 1px solid #2d3b55;
+  border-radius: 18px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.form-row {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+label {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+}
+
+input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #394a63;
+  background: #0f1720;
+  color: #e8eaed;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.delete-btn {
+  background: #dc2626;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+.page-links {
+  margin-top: 16px;
+}
+
+.page-links a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+.page-links a:hover {
+  text-decoration: underline;
+}
+
+.registration-output {
+  margin-top: 16px;
+  padding: 14px;
+  border-radius: 12px;
+  background: #0f1720;
+  border: 1px solid #334155;
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead tr {
+  background: #111827;
+}
+
+th,
+ td {
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 1px solid #2d3b55;
+}
+
+th {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.notice {
+  margin-top: 12px;
+  color: #9ca3af;
+}

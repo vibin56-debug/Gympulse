@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Firebase service account
+backend/serviceAccountKey.json
+
+# Local server artifacts
+*.log
+
+# VS Code
+.vscode/
+node_modules

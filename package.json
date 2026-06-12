@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "firebase": "^12.14.0",
+    "html5-qrcode": "^2.3.8",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "vite": "^8.0.16"
+  },
+  "scripts": {
+    "dev": "vite web",
+    "build": "vite build web"
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GymPulse Debug - Firebase Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>GymPulse Firebase Debug</h1>
+      <p>Test Firebase connectivity and Firestore rules.</p>
+      <div class="page-links">
+        <a href="index.html">Back to Dashboard</a>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Connection Tests</h2>
+      
+      <button id="testInitButton">Test Firebase Init</button>
+      <p id="testInitResult" class="notice"></p>
+
+      <button id="testReadButton">Test Read Access</button>
+      <p id="testReadResult" class="notice"></p>
+
+      <button id="testWriteButton">Test Write Access</button>
+      <p id="testWriteResult" class="notice"></p>
+
+      <button id="testDeleteButton">Test Delete Access</button>
+      <p id="testDeleteResult" class="notice"></p>
+    </section>
+
+    <section class="card">
+      <h2>Logs</h2>
+      <div id="logBox" style="
+        background: #0f1720;
+        border: 1px solid #394a63;
+        border-radius: 8px;
+        padding: 12px;
+        font-family: monospace;
+        font-size: 0.85rem;
+        max-height: 300px;
+        overflow-y: auto;
+        color: #cbd5e1;
+      "></div>
+      <button id="clearLogsButton" style="margin-top: 8px;">Clear Logs</button>
+    </section>
+  </main>
+
+  <script type="module" src="debug.js"></script>
+</body>
+</html>
