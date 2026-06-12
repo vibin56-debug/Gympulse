@@ -10,6 +10,12 @@ backend/serviceAccountKey.json
 # Local server artifacts
 *.log
 
+# Build artifacts
+node_modules/
+web/dist/
+
+# Environment
+*.env
+
 # VS Code
 .vscode/
-node_modules
